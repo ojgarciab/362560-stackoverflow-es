@@ -1,0 +1,12 @@
+tasks:
+- name: Terminal
+  init: >
+    echo "Compilando la aplicación:";
+    javac Pruebas.java;
+    echo "Ejecutando la aplicación:";
+    echo -n "5\n5" | java Pruebas
+  command: >
+    echo "";
+    echo "Recuerda que pudes hacer:";
+    echo " * javac Pruebas.java";
+    echo ' * echo -n "5\n5" | java Pruebas'
